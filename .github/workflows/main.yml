@@ -1,9 +1,11 @@
+name: Update data
 on:
   schedule:
     - cron: "15 5,13,21 * * *"
 
 jobs:
   extract_job:
+    name: Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
