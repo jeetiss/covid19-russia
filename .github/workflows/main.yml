@@ -1,0 +1,27 @@
+on:
+  schedule:
+    - cron: "15 5,13,21 * * *"
+
+jobs:
+  extract_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install node
+        uses: actions/setup-node@v1
+      - name: Install deps
+        run: npm ci
+      - name: Run puppeteer
+        run: node ./src/index.js
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Update json" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          directory: main

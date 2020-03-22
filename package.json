@@ -1,0 +1,16 @@
+{
+  "name": "covid19-russia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jeetiss",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.11.0",
+    "puppeteer": "^2.1.1"
+  }
+}
