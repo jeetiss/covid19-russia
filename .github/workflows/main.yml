@@ -1,25 +1,31 @@
 name: Update data
 on:
   schedule:
-    - cron: "15 5,13,21 * * *"
+    - cron: "15 6-18/3 * * *"
 
 jobs:
   extract_job:
-    name: Release
+    name: Update
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install node
         uses: actions/setup-node@v1
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - name: Install deps
         run: npm ci
       - name: Run puppeteer
         run: node ./src/index.js
       - name: Commit files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add .
           git diff-index --quiet HEAD || git commit -m "Update json" -a
       - name: Push changes
