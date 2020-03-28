@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 const { parse, format } = require("date-fns");
 const { ru } = require("date-fns/locale");
 const fs = require("fs");
-const path = require("path");
+const prettier = require("prettier");
 const { promisify } = require("util");
 
 const timeseries = require("../docs/timeseries.json");
@@ -70,7 +70,10 @@ const writeFile = promisify(fs.writeFile);
 
   await writeFile(
     require.resolve("../docs/timeseries.json"),
-    JSON.stringify(timeseries)
+    prettier.format(JSON.stringify(timeseries), {
+      printWidth: 90,
+      parser: "json"
+    })
   );
 
   console.log("Done ✅");
