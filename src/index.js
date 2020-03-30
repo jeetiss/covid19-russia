@@ -3,12 +3,13 @@ const { parse, format } = require("date-fns");
 const { ru } = require("date-fns/locale");
 const fs = require("fs");
 const prettier = require("prettier");
+const retry = require("async-retry");
 const { promisify } = require("util");
 
 const timeseries = require("../docs/timeseries.json");
 const writeFile = promisify(fs.writeFile);
 
-(async () => {
+async function main() {
   const TEXT_FOR_DATE = "По состоянию на";
 
   const browser = await puppeteer.launch();
@@ -21,9 +22,14 @@ const writeFile = promisify(fs.writeFile);
   );
 
   const date = format(
-    parse(dateText.replace(TEXT_FOR_DATE, "").trim(), "d MMMM", new Date(), {
-      locale: ru
-    }),
+    parse(
+      dateText.replace(TEXT_FOR_DATE, "").trim(),
+      "d MMMM H:mm",
+      new Date(),
+      {
+        locale: ru
+      }
+    ),
     "yyyy-MM-dd"
   );
 
@@ -77,4 +83,20 @@ const writeFile = promisify(fs.writeFile);
   );
 
   console.log("Done ✅");
+}
+
+(async () => {
+  try {
+    await retry(
+      async () => {
+        await main();
+      },
+      {
+        retries: 3
+      }
+    );
+  } catch (error) {
+    console.log("Error 🅾️");
+    console.log(error);
+  }
 })();
