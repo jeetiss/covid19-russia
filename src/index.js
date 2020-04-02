@@ -1,6 +1,5 @@
 const puppeteer = require("puppeteer");
-const { parse, format } = require("date-fns");
-// const { ru } = require("date-fns/locale");
+const { format } = require("date-fns");
 const fs = require("fs");
 const prettier = require("prettier");
 const retry = require("async-retry");
@@ -10,35 +9,16 @@ const timeseries = require("../docs/timeseries.json");
 const writeFile = promisify(fs.writeFile);
 
 async function main() {
-  // const TEXT_FOR_DATE = "По состоянию на";
-
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto("https://xn--80aesfpebagmfblc0a.xn--p1ai/", {
     timeout: 60000
   });
 
-  // const dateText = await page.$eval(
-  //   "#operational-data > div > div > h2 > span > small",
-  //   node => node.textContent
-  // );
-
-  // const date = format(
-  //   parse(
-  //     dateText.replace(TEXT_FOR_DATE, "").trim(),
-  //     "d MMMM H:mm",
-  //     new Date(),
-  //     {
-  //       locale: ru
-  //     }
-  //   ),
-  //   "yyyy-MM-dd"
-  // );
-
   const date = format(new Date(), "yyyy-MM-dd");
 
   const data = await page.$$eval(
-    "#operational-data div.d-map__main > div.d-map__list > table tr",
+    "body div.d-map__main div.d-map__list table tr",
     trNodes =>
       trNodes
         .map(
