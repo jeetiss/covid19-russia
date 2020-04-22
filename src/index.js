@@ -17,6 +17,8 @@ async function main() {
 
   const date = format(new Date(), "yyyy-MM-dd");
 
+  await (await page.$('#app div.cv-banner__bottom a')).click()
+
   const data = await page.$$eval(
     "body div.d-map__main div.d-map__list table tr",
     trNodes =>
