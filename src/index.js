@@ -11,25 +11,23 @@ const writeFile = promisify(fs.writeFile);
 async function main() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto("https://xn--80aesfpebagmfblc0a.xn--p1ai/", {
+  await page.goto("https://xn--80aesfpebagmfblc0a.xn--p1ai/information/", {
     timeout: 60000
   });
 
   const date = format(new Date(), "yyyy-MM-dd");
 
-  await (await page.$('#app div.cv-banner__bottom a')).click()
-
   const data = await page.$$eval(
-    "body div.d-map__main div.d-map__list table tr",
+    '#app div.cv-spread-overview__table table > tbody > tr',
     trNodes =>
       trNodes
         .map(
           tr =>
             tr.children && [
-              tr.children[0].textContent,
-              tr.children[1].textContent,
-              tr.children[2].textContent,
-              tr.children[3].textContent
+              tr.children[0].textContent.trim(),
+              tr.children[1].textContent.trim(),
+              tr.children[4].textContent.trim(),
+              tr.children[5].textContent.trim()
             ]
         )
         .filter(Boolean)
