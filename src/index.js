@@ -12,22 +12,22 @@ async function main() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto("https://xn--80aesfpebagmfblc0a.xn--p1ai/information/", {
-    timeout: 60000
+    timeout: 60000,
   });
 
   const date = format(new Date(), "yyyy-MM-dd");
 
   const data = await page.$$eval(
-    '#app div.cv-spread-overview__table table > tbody > tr',
-    trNodes =>
+    "#app div.cv-spread-overview__table table > tbody > tr",
+    (trNodes) =>
       trNodes
         .map(
-          tr =>
+          (tr) =>
             tr.children && [
               tr.children[0].textContent.trim(),
               tr.children[1].textContent.trim(),
               tr.children[4].textContent.trim(),
-              tr.children[5].textContent.trim()
+              tr.children[5].textContent.trim(),
             ]
         )
         .filter(Boolean)
@@ -35,36 +35,49 @@ async function main() {
 
   await browser.close();
 
-  data.forEach(([city, confirmed, recovered, deaths]) => {
-    if (!Array.isArray(timeseries[city])) {
-      timeseries[city] = [];
-    }
+  if (
+    data.some(([city, confirmed, recovered, deaths]) => {
+      const last = timeseries[city][timeseries[city].length - 1];
 
-    const last = timeseries[city][timeseries[city].length - 1];
-    if (last && last.date === date) {
-      timeseries[city][timeseries[city].length - 1] = {
-        date,
-        confirmed,
-        deaths,
-        recovered
-      };
-    } else {
-      timeseries[city].push({
-        date,
-        confirmed,
-        deaths,
-        recovered
-      });
-    }
-  });
-
-  await writeFile(
-    require.resolve("../docs/timeseries.json"),
-    prettier.format(JSON.stringify(timeseries), {
-      printWidth: 90,
-      parser: "json"
+      return (
+        last.confirmed !== confirmed ||
+        last.recovered !== recovered ||
+        last.deaths !== deaths
+      );
     })
-  );
+  ) {
+    data.forEach(([city, confirmed, recovered, deaths]) => {
+      if (!Array.isArray(timeseries[city])) {
+        timeseries[city] = [];
+      }
+
+      const last = timeseries[city][timeseries[city].length - 1];
+      if (last && last.date === date) {
+        timeseries[city][timeseries[city].length - 1] = {
+          date,
+          confirmed,
+          deaths,
+          recovered,
+        };
+      } else {
+        timeseries[city].push({
+          date,
+          confirmed,
+          deaths,
+          recovered,
+        });
+      }
+    });
+
+    console.log("Save update");
+    await writeFile(
+      require.resolve("../docs/timeseries.json"),
+      prettier.format(JSON.stringify(timeseries), {
+        printWidth: 90,
+        parser: "json",
+      })
+    );
+  }
 
   console.log("Done ✅");
 }
@@ -76,7 +89,7 @@ async function main() {
         await main();
       },
       {
-        retries: 3
+        retries: 3,
       }
     );
   } catch (error) {
