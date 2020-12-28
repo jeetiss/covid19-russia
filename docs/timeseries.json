@@ -1445,6 +1445,12 @@
       "confirmed": "786204",
       "deaths": "10913",
       "recovered": "604604"
+    },
+    {
+      "date": "2020-12-28",
+      "confirmed": "792457",
+      "deaths": "10989",
+      "recovered": "609770"
     }
   ],
   "Московская область": [
@@ -2573,6 +2579,12 @@
       "confirmed": "149082",
       "deaths": "2813",
       "recovered": "106612"
+    },
+    {
+      "date": "2020-12-28",
+      "confirmed": "150688",
+      "deaths": "2832",
+      "recovered": "107962"
     }
   ],
   "Санкт-Петербург": [
@@ -3781,6 +3793,12 @@
       "confirmed": "227097",
       "deaths": "7378",
       "recovered": "136239"
+    },
+    {
+      "date": "2020-12-28",
+      "confirmed": "230845",
+      "deaths": "7453",
+      "recovered": "138487"
     }
   ],
   "Свердловская область": [
@@ -4209,7 +4227,13 @@
       "deaths": "1424",
       "recovered": "48892"
     },
-    { "date": "2020-12-27", "confirmed": "56977", "deaths": "1441", "recovered": "49303" }
+    {
+      "date": "2020-12-27",
+      "confirmed": "56977",
+      "deaths": "1441",
+      "recovered": "49303"
+    },
+    { "date": "2020-12-28", "confirmed": "57381", "deaths": "1457", "recovered": "49710" }
   ],
   "Самарская область": [
     { "date": "2020-03-22", "confirmed": "9", "deaths": "0", "recovered": "0" },
@@ -4492,7 +4516,8 @@
     { "date": "2020-12-24", "confirmed": "29251", "deaths": "540", "recovered": "26978" },
     { "date": "2020-12-25", "confirmed": "29557", "deaths": "540", "recovered": "27269" },
     { "date": "2020-12-26", "confirmed": "29864", "deaths": "540", "recovered": "27563" },
-    { "date": "2020-12-27", "confirmed": "30175", "deaths": "553", "recovered": "27827" }
+    { "date": "2020-12-27", "confirmed": "30175", "deaths": "553", "recovered": "27827" },
+    { "date": "2020-12-28", "confirmed": "30485", "deaths": "566", "recovered": "28078" }
   ],
   "Республика Саха (Якутия)": [
     { "date": "2020-03-22", "confirmed": "7", "deaths": "0", "recovered": "0" },
@@ -4775,7 +4800,8 @@
     { "date": "2020-12-24", "confirmed": "25037", "deaths": "367", "recovered": "22479" },
     { "date": "2020-12-25", "confirmed": "25231", "deaths": "369", "recovered": "22669" },
     { "date": "2020-12-26", "confirmed": "25426", "deaths": "375", "recovered": "22867" },
-    { "date": "2020-12-27", "confirmed": "25618", "deaths": "375", "recovered": "23054" }
+    { "date": "2020-12-27", "confirmed": "25618", "deaths": "375", "recovered": "23054" },
+    { "date": "2020-12-28", "confirmed": "25808", "deaths": "378", "recovered": "23235" }
   ],
   "Нижегородская область": [
     { "date": "2020-03-22", "confirmed": "7", "deaths": "0", "recovered": "0" },
@@ -5253,7 +5279,13 @@
       "deaths": "1568",
       "recovered": "59986"
     },
-    { "date": "2020-12-27", "confirmed": "67812", "deaths": "1583", "recovered": "60406" }
+    {
+      "date": "2020-12-27",
+      "confirmed": "67812",
+      "deaths": "1583",
+      "recovered": "60406"
+    },
+    { "date": "2020-12-28", "confirmed": "68314", "deaths": "1600", "recovered": "60865" }
   ],
   "Кировская область": [
     { "date": "2020-03-22", "confirmed": "7", "deaths": "0", "recovered": "0" },
@@ -5536,7 +5568,8 @@
     { "date": "2020-12-24", "confirmed": "23907", "deaths": "222", "recovered": "17209" },
     { "date": "2020-12-25", "confirmed": "24157", "deaths": "224", "recovered": "17448" },
     { "date": "2020-12-26", "confirmed": "24406", "deaths": "224", "recovered": "17704" },
-    { "date": "2020-12-27", "confirmed": "24654", "deaths": "225", "recovered": "17968" }
+    { "date": "2020-12-27", "confirmed": "24654", "deaths": "225", "recovered": "17968" },
+    { "date": "2020-12-28", "confirmed": "24902", "deaths": "226", "recovered": "18233" }
   ],
   "Калининградская область": [
     { "date": "2020-03-22", "confirmed": "7", "deaths": "0", "recovered": "0" },
@@ -5819,7 +5852,8 @@
     { "date": "2020-12-24", "confirmed": "16289", "deaths": "161", "recovered": "13374" },
     { "date": "2020-12-25", "confirmed": "16493", "deaths": "162", "recovered": "13814" },
     { "date": "2020-12-26", "confirmed": "16703", "deaths": "162", "recovered": "14229" },
-    { "date": "2020-12-27", "confirmed": "16914", "deaths": "162", "recovered": "14624" }
+    { "date": "2020-12-27", "confirmed": "16914", "deaths": "162", "recovered": "14624" },
+    { "date": "2020-12-28", "confirmed": "17129", "deaths": "162", "recovered": "14935" }
   ],
   "Республика Татарстан": [
     { "date": "2020-03-22", "confirmed": "6", "deaths": "0", "recovered": "0" },
@@ -6102,7 +6136,8 @@
     { "date": "2020-12-24", "confirmed": "12583", "deaths": "171", "recovered": "10574" },
     { "date": "2020-12-25", "confirmed": "12680", "deaths": "171", "recovered": "10594" },
     { "date": "2020-12-26", "confirmed": "12784", "deaths": "171", "recovered": "10617" },
-    { "date": "2020-12-27", "confirmed": "12890", "deaths": "172", "recovered": "10637" }
+    { "date": "2020-12-27", "confirmed": "12890", "deaths": "172", "recovered": "10637" },
+    { "date": "2020-12-28", "confirmed": "12995", "deaths": "172", "recovered": "10658" }
   ],
   "Тульская область": [
     { "date": "2020-03-22", "confirmed": "5", "deaths": "0", "recovered": "0" },
@@ -6385,7 +6420,8 @@
     { "date": "2020-12-24", "confirmed": "21388", "deaths": "682", "recovered": "18746" },
     { "date": "2020-12-25", "confirmed": "21596", "deaths": "692", "recovered": "18933" },
     { "date": "2020-12-26", "confirmed": "21802", "deaths": "698", "recovered": "19132" },
-    { "date": "2020-12-27", "confirmed": "22010", "deaths": "707", "recovered": "19313" }
+    { "date": "2020-12-27", "confirmed": "22010", "deaths": "707", "recovered": "19313" },
+    { "date": "2020-12-28", "confirmed": "22219", "deaths": "717", "recovered": "19493" }
   ],
   "Красноярский край": [
     { "date": "2020-03-22", "confirmed": "5", "deaths": "0", "recovered": "0" },
@@ -6828,7 +6864,13 @@
       "deaths": "1621",
       "recovered": "38888"
     },
-    { "date": "2020-12-27", "confirmed": "45218", "deaths": "1639", "recovered": "39293" }
+    {
+      "date": "2020-12-27",
+      "confirmed": "45218",
+      "deaths": "1639",
+      "recovered": "39293"
+    },
+    { "date": "2020-12-28", "confirmed": "45545", "deaths": "1652", "recovered": "39693" }
   ],
   "Краснодарский край": [
     { "date": "2020-03-22", "confirmed": "5", "deaths": "0", "recovered": "0" },
@@ -7111,7 +7153,8 @@
     { "date": "2020-12-24", "confirmed": "26409", "deaths": "836", "recovered": "17811" },
     { "date": "2020-12-25", "confirmed": "26595", "deaths": "849", "recovered": "17934" },
     { "date": "2020-12-26", "confirmed": "26785", "deaths": "862", "recovered": "18075" },
-    { "date": "2020-12-27", "confirmed": "26972", "deaths": "876", "recovered": "18180" }
+    { "date": "2020-12-27", "confirmed": "26972", "deaths": "876", "recovered": "18180" },
+    { "date": "2020-12-28", "confirmed": "27153", "deaths": "888", "recovered": "18273" }
   ],
   "Новосибирская область": [
     { "date": "2020-03-22", "confirmed": "4", "deaths": "0", "recovered": "0" },
@@ -7394,7 +7437,8 @@
     { "date": "2020-12-24", "confirmed": "26790", "deaths": "909", "recovered": "22683" },
     { "date": "2020-12-25", "confirmed": "26955", "deaths": "918", "recovered": "22900" },
     { "date": "2020-12-26", "confirmed": "27115", "deaths": "925", "recovered": "23131" },
-    { "date": "2020-12-27", "confirmed": "27272", "deaths": "933", "recovered": "23224" }
+    { "date": "2020-12-27", "confirmed": "27272", "deaths": "933", "recovered": "23224" },
+    { "date": "2020-12-28", "confirmed": "27427", "deaths": "941", "recovered": "23319" }
   ],
   "Хабаровский край": [
     { "date": "2020-03-22", "confirmed": "4", "deaths": "0", "recovered": "0" },
@@ -7677,7 +7721,8 @@
     { "date": "2020-12-24", "confirmed": "32701", "deaths": "199", "recovered": "28249" },
     { "date": "2020-12-25", "confirmed": "33044", "deaths": "199", "recovered": "28760" },
     { "date": "2020-12-26", "confirmed": "33390", "deaths": "200", "recovered": "29262" },
-    { "date": "2020-12-27", "confirmed": "33728", "deaths": "200", "recovered": "29643" }
+    { "date": "2020-12-27", "confirmed": "33728", "deaths": "200", "recovered": "29643" },
+    { "date": "2020-12-28", "confirmed": "34068", "deaths": "200", "recovered": "29881" }
   ],
   "Тюменская область": [
     { "date": "2020-03-22", "confirmed": "3", "deaths": "0", "recovered": "1" },
@@ -7960,7 +8005,8 @@
     { "date": "2020-12-24", "confirmed": "22254", "deaths": "191", "recovered": "20865" },
     { "date": "2020-12-25", "confirmed": "22419", "deaths": "192", "recovered": "21025" },
     { "date": "2020-12-26", "confirmed": "22579", "deaths": "192", "recovered": "21188" },
-    { "date": "2020-12-27", "confirmed": "22738", "deaths": "193", "recovered": "21345" }
+    { "date": "2020-12-27", "confirmed": "22738", "deaths": "193", "recovered": "21345" },
+    { "date": "2020-12-28", "confirmed": "22895", "deaths": "193", "recovered": "21486" }
   ],
   "Тамбовская область": [
     { "date": "2020-03-22", "confirmed": "3", "deaths": "0", "recovered": "0" },
@@ -8243,7 +8289,8 @@
     { "date": "2020-12-24", "confirmed": "16553", "deaths": "168", "recovered": "14747" },
     { "date": "2020-12-25", "confirmed": "16707", "deaths": "170", "recovered": "14890" },
     { "date": "2020-12-26", "confirmed": "16863", "deaths": "172", "recovered": "15024" },
-    { "date": "2020-12-27", "confirmed": "17018", "deaths": "175", "recovered": "15183" }
+    { "date": "2020-12-27", "confirmed": "17018", "deaths": "175", "recovered": "15183" },
+    { "date": "2020-12-28", "confirmed": "17176", "deaths": "178", "recovered": "15238" }
   ],
   "Пермский край": [
     { "date": "2020-03-22", "confirmed": "3", "deaths": "0", "recovered": "0" },
@@ -8551,7 +8598,13 @@
       "deaths": "1076",
       "recovered": "23293"
     },
-    { "date": "2020-12-27", "confirmed": "29311", "deaths": "1089", "recovered": "23501" }
+    {
+      "date": "2020-12-27",
+      "confirmed": "29311",
+      "deaths": "1089",
+      "recovered": "23501"
+    },
+    { "date": "2020-12-28", "confirmed": "29641", "deaths": "1101", "recovered": "23652" }
   ],
   "Липецкая область": [
     { "date": "2020-03-22", "confirmed": "3", "deaths": "0", "recovered": "3" },
@@ -8834,7 +8887,8 @@
     { "date": "2020-12-24", "confirmed": "14905", "deaths": "224", "recovered": "11474" },
     { "date": "2020-12-25", "confirmed": "15067", "deaths": "229", "recovered": "11700" },
     { "date": "2020-12-26", "confirmed": "15224", "deaths": "231", "recovered": "11871" },
-    { "date": "2020-12-27", "confirmed": "15382", "deaths": "233", "recovered": "11951" }
+    { "date": "2020-12-27", "confirmed": "15382", "deaths": "233", "recovered": "11951" },
+    { "date": "2020-12-28", "confirmed": "15542", "deaths": "237", "recovered": "11990" }
   ],
   "Тверская область": [
     { "date": "2020-03-22", "confirmed": "3", "deaths": "0", "recovered": "0" },
@@ -9117,7 +9171,8 @@
     { "date": "2020-12-24", "confirmed": "20607", "deaths": "438", "recovered": "15490" },
     { "date": "2020-12-25", "confirmed": "20843", "deaths": "441", "recovered": "16025" },
     { "date": "2020-12-26", "confirmed": "21082", "deaths": "444", "recovered": "16446" },
-    { "date": "2020-12-27", "confirmed": "21320", "deaths": "444", "recovered": "16848" }
+    { "date": "2020-12-27", "confirmed": "21320", "deaths": "444", "recovered": "16848" },
+    { "date": "2020-12-28", "confirmed": "21557", "deaths": "444", "recovered": "16945" }
   ],
   "Удмуртская Республика": [
     { "date": "2020-03-22", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -9400,7 +9455,8 @@
     { "date": "2020-12-24", "confirmed": "18119", "deaths": "365", "recovered": "14564" },
     { "date": "2020-12-25", "confirmed": "18331", "deaths": "368", "recovered": "14760" },
     { "date": "2020-12-26", "confirmed": "18546", "deaths": "371", "recovered": "14965" },
-    { "date": "2020-12-27", "confirmed": "18763", "deaths": "374", "recovered": "15166" }
+    { "date": "2020-12-27", "confirmed": "18763", "deaths": "374", "recovered": "15166" },
+    { "date": "2020-12-28", "confirmed": "18981", "deaths": "376", "recovered": "15369" }
   ],
   "Кабардино-Балкарская Республика": [
     { "date": "2020-03-22", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -9683,7 +9739,8 @@
     { "date": "2020-12-24", "confirmed": "15106", "deaths": "252", "recovered": "13094" },
     { "date": "2020-12-25", "confirmed": "15206", "deaths": "254", "recovered": "13223" },
     { "date": "2020-12-26", "confirmed": "15309", "deaths": "255", "recovered": "13354" },
-    { "date": "2020-12-27", "confirmed": "15414", "deaths": "257", "recovered": "13479" }
+    { "date": "2020-12-27", "confirmed": "15414", "deaths": "257", "recovered": "13479" },
+    { "date": "2020-12-28", "confirmed": "15518", "deaths": "259", "recovered": "13603" }
   ],
   "Воронежская область": [
     { "date": "2020-03-22", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -9981,7 +10038,13 @@
       "deaths": "1044",
       "recovered": "42556"
     },
-    { "date": "2020-12-27", "confirmed": "44673", "deaths": "1061", "recovered": "42654" }
+    {
+      "date": "2020-12-27",
+      "confirmed": "44673",
+      "deaths": "1061",
+      "recovered": "42654"
+    },
+    { "date": "2020-12-28", "confirmed": "45060", "deaths": "1083", "recovered": "42745" }
   ],
   "Кемеровская область": [
     { "date": "2020-03-22", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -10264,7 +10327,8 @@
     { "date": "2020-12-24", "confirmed": "24743", "deaths": "453", "recovered": "21623" },
     { "date": "2020-12-25", "confirmed": "24889", "deaths": "456", "recovered": "21796" },
     { "date": "2020-12-26", "confirmed": "25038", "deaths": "460", "recovered": "21974" },
-    { "date": "2020-12-27", "confirmed": "25183", "deaths": "460", "recovered": "22146" }
+    { "date": "2020-12-27", "confirmed": "25183", "deaths": "460", "recovered": "22146" },
+    { "date": "2020-12-28", "confirmed": "25327", "deaths": "461", "recovered": "22305" }
   ],
   "Архангельская область": [
     { "date": "2020-03-22", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -10547,7 +10611,8 @@
     { "date": "2020-12-24", "confirmed": "40743", "deaths": "409", "recovered": "31466" },
     { "date": "2020-12-25", "confirmed": "41118", "deaths": "419", "recovered": "31835" },
     { "date": "2020-12-26", "confirmed": "41489", "deaths": "430", "recovered": "32219" },
-    { "date": "2020-12-27", "confirmed": "41859", "deaths": "438", "recovered": "32575" }
+    { "date": "2020-12-27", "confirmed": "41859", "deaths": "438", "recovered": "32575" },
+    { "date": "2020-12-28", "confirmed": "42233", "deaths": "438", "recovered": "32920" }
   ],
   "Рязанская область": [
     { "date": "2020-03-22", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -10830,7 +10895,8 @@
     { "date": "2020-12-24", "confirmed": "17179", "deaths": "139", "recovered": "15684" },
     { "date": "2020-12-25", "confirmed": "17319", "deaths": "141", "recovered": "15819" },
     { "date": "2020-12-26", "confirmed": "17455", "deaths": "145", "recovered": "15958" },
-    { "date": "2020-12-27", "confirmed": "17594", "deaths": "148", "recovered": "16085" }
+    { "date": "2020-12-27", "confirmed": "17594", "deaths": "148", "recovered": "16085" },
+    { "date": "2020-12-28", "confirmed": "17735", "deaths": "148", "recovered": "16203" }
   ],
   "Ханты-Мансийский АО": [
     { "date": "2020-03-22", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -11113,7 +11179,8 @@
     { "date": "2020-12-24", "confirmed": "39737", "deaths": "514", "recovered": "35759" },
     { "date": "2020-12-25", "confirmed": "39965", "deaths": "516", "recovered": "36102" },
     { "date": "2020-12-26", "confirmed": "40191", "deaths": "519", "recovered": "36400" },
-    { "date": "2020-12-27", "confirmed": "40414", "deaths": "525", "recovered": "36680" }
+    { "date": "2020-12-27", "confirmed": "40414", "deaths": "525", "recovered": "36680" },
+    { "date": "2020-12-28", "confirmed": "40635", "deaths": "529", "recovered": "36894" }
   ],
   "Пензенская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -11396,7 +11463,8 @@
     { "date": "2020-12-24", "confirmed": "24654", "deaths": "301", "recovered": "20103" },
     { "date": "2020-12-25", "confirmed": "24854", "deaths": "303", "recovered": "20231" },
     { "date": "2020-12-26", "confirmed": "25053", "deaths": "306", "recovered": "20345" },
-    { "date": "2020-12-27", "confirmed": "25254", "deaths": "308", "recovered": "20485" }
+    { "date": "2020-12-27", "confirmed": "25254", "deaths": "308", "recovered": "20485" },
+    { "date": "2020-12-28", "confirmed": "25451", "deaths": "311", "recovered": "20597" }
   ],
   "Республика Коми": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -11679,7 +11747,8 @@
     { "date": "2020-12-24", "confirmed": "28377", "deaths": "542", "recovered": "25347" },
     { "date": "2020-12-25", "confirmed": "28667", "deaths": "551", "recovered": "25718" },
     { "date": "2020-12-26", "confirmed": "28954", "deaths": "559", "recovered": "26113" },
-    { "date": "2020-12-27", "confirmed": "29239", "deaths": "562", "recovered": "26490" }
+    { "date": "2020-12-27", "confirmed": "29239", "deaths": "562", "recovered": "26490" },
+    { "date": "2020-12-28", "confirmed": "29525", "deaths": "567", "recovered": "26843" }
   ],
   "Мурманская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -11962,7 +12031,8 @@
     { "date": "2020-12-24", "confirmed": "34220", "deaths": "608", "recovered": "31309" },
     { "date": "2020-12-25", "confirmed": "34495", "deaths": "615", "recovered": "31495" },
     { "date": "2020-12-26", "confirmed": "34768", "deaths": "622", "recovered": "31690" },
-    { "date": "2020-12-27", "confirmed": "35042", "deaths": "631", "recovered": "32000" }
+    { "date": "2020-12-27", "confirmed": "35042", "deaths": "631", "recovered": "32000" },
+    { "date": "2020-12-28", "confirmed": "35313", "deaths": "634", "recovered": "32186" }
   ],
   "Республика Чувашия": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -12245,7 +12315,8 @@
     { "date": "2020-12-24", "confirmed": "15574", "deaths": "452", "recovered": "13914" },
     { "date": "2020-12-25", "confirmed": "15697", "deaths": "463", "recovered": "14038" },
     { "date": "2020-12-26", "confirmed": "15815", "deaths": "475", "recovered": "14156" },
-    { "date": "2020-12-27", "confirmed": "15931", "deaths": "486", "recovered": "14292" }
+    { "date": "2020-12-27", "confirmed": "15931", "deaths": "486", "recovered": "14292" },
+    { "date": "2020-12-28", "confirmed": "16043", "deaths": "496", "recovered": "14420" }
   ],
   "Ленинградская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -12528,7 +12599,8 @@
     { "date": "2020-12-24", "confirmed": "22224", "deaths": "221", "recovered": "20014" },
     { "date": "2020-12-25", "confirmed": "22453", "deaths": "227", "recovered": "20287" },
     { "date": "2020-12-26", "confirmed": "22683", "deaths": "227", "recovered": "20502" },
-    { "date": "2020-12-27", "confirmed": "22912", "deaths": "227", "recovered": "20715" }
+    { "date": "2020-12-27", "confirmed": "22912", "deaths": "227", "recovered": "20715" },
+    { "date": "2020-12-28", "confirmed": "23144", "deaths": "242", "recovered": "20805" }
   ],
   "Ставропольский край": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -12811,7 +12883,8 @@
     { "date": "2020-12-24", "confirmed": "33372", "deaths": "685", "recovered": "29926" },
     { "date": "2020-12-25", "confirmed": "33615", "deaths": "692", "recovered": "30217" },
     { "date": "2020-12-26", "confirmed": "33861", "deaths": "699", "recovered": "30594" },
-    { "date": "2020-12-27", "confirmed": "34100", "deaths": "706", "recovered": "30783" }
+    { "date": "2020-12-27", "confirmed": "34100", "deaths": "706", "recovered": "30783" },
+    { "date": "2020-12-28", "confirmed": "34345", "deaths": "711", "recovered": "30879" }
   ],
   "Республика Крым": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -13094,7 +13167,8 @@
     { "date": "2020-12-24", "confirmed": "22818", "deaths": "451", "recovered": "17360" },
     { "date": "2020-12-25", "confirmed": "23156", "deaths": "459", "recovered": "17817" },
     { "date": "2020-12-26", "confirmed": "23498", "deaths": "467", "recovered": "18373" },
-    { "date": "2020-12-27", "confirmed": "23848", "deaths": "475", "recovered": "18738" }
+    { "date": "2020-12-27", "confirmed": "23848", "deaths": "475", "recovered": "18738" },
+    { "date": "2020-12-28", "confirmed": "24191", "deaths": "483", "recovered": "18873" }
   ],
   "Калужская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -13377,7 +13451,8 @@
     { "date": "2020-12-24", "confirmed": "19857", "deaths": "155", "recovered": "18551" },
     { "date": "2020-12-25", "confirmed": "20026", "deaths": "158", "recovered": "18712" },
     { "date": "2020-12-26", "confirmed": "20201", "deaths": "161", "recovered": "18886" },
-    { "date": "2020-12-27", "confirmed": "20375", "deaths": "165", "recovered": "19058" }
+    { "date": "2020-12-27", "confirmed": "20375", "deaths": "165", "recovered": "19058" },
+    { "date": "2020-12-28", "confirmed": "20543", "deaths": "165", "recovered": "19219" }
   ],
   "Курганская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -13660,7 +13735,8 @@
     { "date": "2020-12-24", "confirmed": "11255", "deaths": "158", "recovered": "9951" },
     { "date": "2020-12-25", "confirmed": "11359", "deaths": "160", "recovered": "10040" },
     { "date": "2020-12-26", "confirmed": "11472", "deaths": "161", "recovered": "10136" },
-    { "date": "2020-12-27", "confirmed": "11577", "deaths": "164", "recovered": "10217" }
+    { "date": "2020-12-27", "confirmed": "11577", "deaths": "164", "recovered": "10217" },
+    { "date": "2020-12-28", "confirmed": "11680", "deaths": "164", "recovered": "10286" }
   ],
   "Брянская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -13943,7 +14019,8 @@
     { "date": "2020-12-24", "confirmed": "21731", "deaths": "216", "recovered": "19098" },
     { "date": "2020-12-25", "confirmed": "21933", "deaths": "216", "recovered": "19415" },
     { "date": "2020-12-26", "confirmed": "22135", "deaths": "216", "recovered": "19660" },
-    { "date": "2020-12-27", "confirmed": "22335", "deaths": "216", "recovered": "20065" }
+    { "date": "2020-12-27", "confirmed": "22335", "deaths": "216", "recovered": "20065" },
+    { "date": "2020-12-28", "confirmed": "22534", "deaths": "216", "recovered": "20413" }
   ],
   "Саратовская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -14226,7 +14303,8 @@
     { "date": "2020-12-24", "confirmed": "33416", "deaths": "376", "recovered": "28658" },
     { "date": "2020-12-25", "confirmed": "33691", "deaths": "382", "recovered": "28855" },
     { "date": "2020-12-26", "confirmed": "33968", "deaths": "388", "recovered": "29043" },
-    { "date": "2020-12-27", "confirmed": "34242", "deaths": "394", "recovered": "29280" }
+    { "date": "2020-12-27", "confirmed": "34242", "deaths": "394", "recovered": "29280" },
+    { "date": "2020-12-28", "confirmed": "34514", "deaths": "399", "recovered": "29512" }
   ],
   "Ярославская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -14509,7 +14587,8 @@
     { "date": "2020-12-24", "confirmed": "20967", "deaths": "164", "recovered": "19642" },
     { "date": "2020-12-25", "confirmed": "21157", "deaths": "166", "recovered": "19835" },
     { "date": "2020-12-26", "confirmed": "21344", "deaths": "170", "recovered": "20020" },
-    { "date": "2020-12-27", "confirmed": "21533", "deaths": "174", "recovered": "20198" }
+    { "date": "2020-12-27", "confirmed": "21533", "deaths": "174", "recovered": "20198" },
+    { "date": "2020-12-28", "confirmed": "21726", "deaths": "177", "recovered": "20344" }
   ],
   "Забайкальский край": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "1" },
@@ -14792,7 +14871,8 @@
     { "date": "2020-12-24", "confirmed": "25511", "deaths": "365", "recovered": "23317" },
     { "date": "2020-12-25", "confirmed": "25759", "deaths": "367", "recovered": "23577" },
     { "date": "2020-12-26", "confirmed": "26008", "deaths": "374", "recovered": "23838" },
-    { "date": "2020-12-27", "confirmed": "26258", "deaths": "374", "recovered": "24087" }
+    { "date": "2020-12-27", "confirmed": "26258", "deaths": "374", "recovered": "24087" },
+    { "date": "2020-12-28", "confirmed": "26505", "deaths": "380", "recovered": "24252" }
   ],
   "Ивановская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -15075,7 +15155,8 @@
     { "date": "2020-12-24", "confirmed": "19943", "deaths": "456", "recovered": "14982" },
     { "date": "2020-12-25", "confirmed": "20128", "deaths": "467", "recovered": "15235" },
     { "date": "2020-12-26", "confirmed": "20315", "deaths": "477", "recovered": "15457" },
-    { "date": "2020-12-27", "confirmed": "20504", "deaths": "483", "recovered": "15522" }
+    { "date": "2020-12-27", "confirmed": "20504", "deaths": "483", "recovered": "15522" },
+    { "date": "2020-12-28", "confirmed": "20690", "deaths": "488", "recovered": "15578" }
   ],
   "Белгородская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -15358,7 +15439,8 @@
     { "date": "2020-12-24", "confirmed": "20523", "deaths": "222", "recovered": "18731" },
     { "date": "2020-12-25", "confirmed": "20713", "deaths": "229", "recovered": "18979" },
     { "date": "2020-12-26", "confirmed": "20899", "deaths": "235", "recovered": "19220" },
-    { "date": "2020-12-27", "confirmed": "21082", "deaths": "240", "recovered": "19359" }
+    { "date": "2020-12-27", "confirmed": "21082", "deaths": "240", "recovered": "19359" },
+    { "date": "2020-12-28", "confirmed": "21262", "deaths": "242", "recovered": "19432" }
   ],
   "Ульяновская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -15641,7 +15723,8 @@
     { "date": "2020-12-24", "confirmed": "34342", "deaths": "445", "recovered": "31218" },
     { "date": "2020-12-25", "confirmed": "34622", "deaths": "452", "recovered": "31576" },
     { "date": "2020-12-26", "confirmed": "34904", "deaths": "452", "recovered": "31937" },
-    { "date": "2020-12-27", "confirmed": "35188", "deaths": "460", "recovered": "32256" }
+    { "date": "2020-12-27", "confirmed": "35188", "deaths": "460", "recovered": "32256" },
+    { "date": "2020-12-28", "confirmed": "35469", "deaths": "460", "recovered": "32490" }
   ],
   "Новгородская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -15924,7 +16007,8 @@
     { "date": "2020-12-24", "confirmed": "16844", "deaths": "99", "recovered": "12298" },
     { "date": "2020-12-25", "confirmed": "17051", "deaths": "99", "recovered": "12540" },
     { "date": "2020-12-26", "confirmed": "17261", "deaths": "99", "recovered": "12743" },
-    { "date": "2020-12-27", "confirmed": "17470", "deaths": "99", "recovered": "12805" }
+    { "date": "2020-12-27", "confirmed": "17470", "deaths": "99", "recovered": "12805" },
+    { "date": "2020-12-28", "confirmed": "17681", "deaths": "99", "recovered": "12815" }
   ],
   "Челябинская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -16207,7 +16291,8 @@
     { "date": "2020-12-24", "confirmed": "32532", "deaths": "480", "recovered": "23018" },
     { "date": "2020-12-25", "confirmed": "32843", "deaths": "489", "recovered": "23043" },
     { "date": "2020-12-26", "confirmed": "33157", "deaths": "498", "recovered": "23074" },
-    { "date": "2020-12-27", "confirmed": "33473", "deaths": "507", "recovered": "23102" }
+    { "date": "2020-12-27", "confirmed": "33473", "deaths": "507", "recovered": "23102" },
+    { "date": "2020-12-28", "confirmed": "33784", "deaths": "516", "recovered": "23129" }
   ],
   "Томская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -16490,7 +16575,8 @@
     { "date": "2020-12-24", "confirmed": "23109", "deaths": "209", "recovered": "18585" },
     { "date": "2020-12-25", "confirmed": "23294", "deaths": "209", "recovered": "18816" },
     { "date": "2020-12-26", "confirmed": "23490", "deaths": "214", "recovered": "19029" },
-    { "date": "2020-12-27", "confirmed": "23674", "deaths": "215", "recovered": "19230" }
+    { "date": "2020-12-27", "confirmed": "23674", "deaths": "215", "recovered": "19230" },
+    { "date": "2020-12-28", "confirmed": "23855", "deaths": "215", "recovered": "19453" }
   ],
   "Оренбургская область": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -16773,7 +16859,8 @@
     { "date": "2020-12-24", "confirmed": "27488", "deaths": "311", "recovered": "24008" },
     { "date": "2020-12-25", "confirmed": "27667", "deaths": "315", "recovered": "24176" },
     { "date": "2020-12-26", "confirmed": "27846", "deaths": "320", "recovered": "24349" },
-    { "date": "2020-12-27", "confirmed": "28023", "deaths": "323", "recovered": "24511" }
+    { "date": "2020-12-27", "confirmed": "28023", "deaths": "323", "recovered": "24511" },
+    { "date": "2020-12-28", "confirmed": "28199", "deaths": "328", "recovered": "24669" }
   ],
   "Республика Хакасия": [
     { "date": "2020-03-22", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -17056,7 +17143,8 @@
     { "date": "2020-12-24", "confirmed": "16378", "deaths": "232", "recovered": "13335" },
     { "date": "2020-12-25", "confirmed": "16554", "deaths": "232", "recovered": "13506" },
     { "date": "2020-12-26", "confirmed": "16731", "deaths": "233", "recovered": "13692" },
-    { "date": "2020-12-27", "confirmed": "16907", "deaths": "236", "recovered": "13863" }
+    { "date": "2020-12-27", "confirmed": "16907", "deaths": "236", "recovered": "13863" },
+    { "date": "2020-12-28", "confirmed": "17081", "deaths": "237", "recovered": "14029" }
   ],
   "Республика Башкортостан": [
     { "date": "2020-03-24", "confirmed": "3", "deaths": "0", "recovered": "0" },
@@ -17337,7 +17425,8 @@
     { "date": "2020-12-24", "confirmed": "17904", "deaths": "129", "recovered": "14060" },
     { "date": "2020-12-25", "confirmed": "18066", "deaths": "131", "recovered": "14162" },
     { "date": "2020-12-26", "confirmed": "18231", "deaths": "132", "recovered": "14431" },
-    { "date": "2020-12-27", "confirmed": "18395", "deaths": "132", "recovered": "14501" }
+    { "date": "2020-12-27", "confirmed": "18395", "deaths": "132", "recovered": "14501" },
+    { "date": "2020-12-28", "confirmed": "18562", "deaths": "134", "recovered": "14536" }
   ],
   "Приморский край": [
     { "date": "2020-03-24", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -17618,7 +17707,8 @@
     { "date": "2020-12-24", "confirmed": "27615", "deaths": "344", "recovered": "19568" },
     { "date": "2020-12-25", "confirmed": "27853", "deaths": "350", "recovered": "19803" },
     { "date": "2020-12-26", "confirmed": "28094", "deaths": "354", "recovered": "20059" },
-    { "date": "2020-12-27", "confirmed": "28333", "deaths": "358", "recovered": "20171" }
+    { "date": "2020-12-27", "confirmed": "28333", "deaths": "358", "recovered": "20171" },
+    { "date": "2020-12-28", "confirmed": "28573", "deaths": "363", "recovered": "20260" }
   ],
   "Орловская область": [
     { "date": "2020-03-24", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -17899,7 +17989,8 @@
     { "date": "2020-12-24", "confirmed": "20117", "deaths": "250", "recovered": "18170" },
     { "date": "2020-12-25", "confirmed": "20300", "deaths": "253", "recovered": "18392" },
     { "date": "2020-12-26", "confirmed": "20480", "deaths": "257", "recovered": "18644" },
-    { "date": "2020-12-27", "confirmed": "20662", "deaths": "260", "recovered": "18804" }
+    { "date": "2020-12-27", "confirmed": "20662", "deaths": "260", "recovered": "18804" },
+    { "date": "2020-12-28", "confirmed": "20840", "deaths": "260", "recovered": "18846" }
   ],
   "Чеченская Республика": [
     { "date": "2020-03-24", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -18180,7 +18271,8 @@
     { "date": "2020-12-24", "confirmed": "7728", "deaths": "89", "recovered": "3612" },
     { "date": "2020-12-25", "confirmed": "7870", "deaths": "89", "recovered": "3700" },
     { "date": "2020-12-26", "confirmed": "8015", "deaths": "90", "recovered": "3769" },
-    { "date": "2020-12-27", "confirmed": "8154", "deaths": "90", "recovered": "3852" }
+    { "date": "2020-12-27", "confirmed": "8154", "deaths": "90", "recovered": "3852" },
+    { "date": "2020-12-28", "confirmed": "8292", "deaths": "91", "recovered": "3960" }
   ],
   "Волгоградская область": [
     { "date": "2020-03-24", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -18461,7 +18553,8 @@
     { "date": "2020-12-24", "confirmed": "33492", "deaths": "422", "recovered": "31773" },
     { "date": "2020-12-25", "confirmed": "33771", "deaths": "427", "recovered": "32035" },
     { "date": "2020-12-26", "confirmed": "34052", "deaths": "433", "recovered": "32317" },
-    { "date": "2020-12-27", "confirmed": "34330", "deaths": "437", "recovered": "32587" }
+    { "date": "2020-12-27", "confirmed": "34330", "deaths": "437", "recovered": "32587" },
+    { "date": "2020-12-28", "confirmed": "34604", "deaths": "443", "recovered": "32853" }
   ],
   "Псковская область": [
     { "date": "2020-03-25", "confirmed": "4", "deaths": "0", "recovered": "0" },
@@ -18741,7 +18834,8 @@
     { "date": "2020-12-24", "confirmed": "20479", "deaths": "97", "recovered": "10592" },
     { "date": "2020-12-25", "confirmed": "20895", "deaths": "98", "recovered": "10817" },
     { "date": "2020-12-26", "confirmed": "21320", "deaths": "98", "recovered": "11061" },
-    { "date": "2020-12-27", "confirmed": "21718", "deaths": "98", "recovered": "11160" }
+    { "date": "2020-12-27", "confirmed": "21718", "deaths": "98", "recovered": "11160" },
+    { "date": "2020-12-28", "confirmed": "22114", "deaths": "98", "recovered": "11195" }
   ],
   "Ростовская область": [
     { "date": "2020-03-25", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -19246,7 +19340,13 @@
       "deaths": "1958",
       "recovered": "40293"
     },
-    { "date": "2020-12-27", "confirmed": "50100", "deaths": "1980", "recovered": "40676" }
+    {
+      "date": "2020-12-27",
+      "confirmed": "50100",
+      "deaths": "1980",
+      "recovered": "40676"
+    },
+    { "date": "2020-12-28", "confirmed": "50490", "deaths": "1983", "recovered": "40910" }
   ],
   "Республика Бурятия": [
     { "date": "2020-03-26", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -19525,7 +19625,8 @@
     { "date": "2020-12-24", "confirmed": "24361", "deaths": "557", "recovered": "21671" },
     { "date": "2020-12-25", "confirmed": "24562", "deaths": "562", "recovered": "21828" },
     { "date": "2020-12-26", "confirmed": "24757", "deaths": "567", "recovered": "22090" },
-    { "date": "2020-12-27", "confirmed": "24955", "deaths": "571", "recovered": "22317" }
+    { "date": "2020-12-27", "confirmed": "24955", "deaths": "571", "recovered": "22317" },
+    { "date": "2020-12-28", "confirmed": "25151", "deaths": "577", "recovered": "22539" }
   ],
   "Республика Мордовия": [
     { "date": "2020-03-27", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -19803,7 +19904,8 @@
     { "date": "2020-12-24", "confirmed": "12876", "deaths": "84", "recovered": "10575" },
     { "date": "2020-12-25", "confirmed": "12964", "deaths": "86", "recovered": "10656" },
     { "date": "2020-12-26", "confirmed": "13051", "deaths": "86", "recovered": "10734" },
-    { "date": "2020-12-27", "confirmed": "13139", "deaths": "88", "recovered": "10815" }
+    { "date": "2020-12-27", "confirmed": "13139", "deaths": "88", "recovered": "10815" },
+    { "date": "2020-12-28", "confirmed": "13227", "deaths": "90", "recovered": "10892" }
   ],
   "Республика Дагестан": [
     { "date": "2020-03-27", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -20186,7 +20288,13 @@
       "deaths": "1097",
       "recovered": "19452"
     },
-    { "date": "2020-12-27", "confirmed": "22832", "deaths": "1099", "recovered": "19585" }
+    {
+      "date": "2020-12-27",
+      "confirmed": "22832",
+      "deaths": "1099",
+      "recovered": "19585"
+    },
+    { "date": "2020-12-28", "confirmed": "22989", "deaths": "1100", "recovered": "19731" }
   ],
   "Сахалинская область": [
     { "date": "2020-03-28", "confirmed": "4", "deaths": "0", "recovered": "0" },
@@ -20463,7 +20571,8 @@
     { "date": "2020-12-24", "confirmed": "14707", "deaths": "15", "recovered": "11549" },
     { "date": "2020-12-25", "confirmed": "14850", "deaths": "15", "recovered": "11914" },
     { "date": "2020-12-26", "confirmed": "15005", "deaths": "15", "recovered": "12216" },
-    { "date": "2020-12-27", "confirmed": "15145", "deaths": "16", "recovered": "12435" }
+    { "date": "2020-12-27", "confirmed": "15145", "deaths": "16", "recovered": "12435" },
+    { "date": "2020-12-28", "confirmed": "15287", "deaths": "16", "recovered": "12610" }
   ],
   "Костромская область": [
     { "date": "2020-03-28", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -20740,7 +20849,8 @@
     { "date": "2020-12-24", "confirmed": "14242", "deaths": "212", "recovered": "10643" },
     { "date": "2020-12-25", "confirmed": "14357", "deaths": "213", "recovered": "10731" },
     { "date": "2020-12-26", "confirmed": "14468", "deaths": "214", "recovered": "10860" },
-    { "date": "2020-12-27", "confirmed": "14581", "deaths": "216", "recovered": "10952" }
+    { "date": "2020-12-27", "confirmed": "14581", "deaths": "216", "recovered": "10952" },
+    { "date": "2020-12-28", "confirmed": "14698", "deaths": "217", "recovered": "10964" }
   ],
   "Смоленская область": [
     { "date": "2020-03-28", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -21017,7 +21127,8 @@
     { "date": "2020-12-24", "confirmed": "15921", "deaths": "318", "recovered": "12387" },
     { "date": "2020-12-25", "confirmed": "16079", "deaths": "318", "recovered": "12611" },
     { "date": "2020-12-26", "confirmed": "16239", "deaths": "320", "recovered": "12781" },
-    { "date": "2020-12-27", "confirmed": "16402", "deaths": "322", "recovered": "12950" }
+    { "date": "2020-12-27", "confirmed": "16402", "deaths": "322", "recovered": "12950" },
+    { "date": "2020-12-28", "confirmed": "16567", "deaths": "323", "recovered": "13008" }
   ],
   "Республика Адыгея": [
     { "date": "2020-03-28", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -21294,7 +21405,8 @@
     { "date": "2020-12-24", "confirmed": "10404", "deaths": "83", "recovered": "8338" },
     { "date": "2020-12-25", "confirmed": "10494", "deaths": "83", "recovered": "8433" },
     { "date": "2020-12-26", "confirmed": "10586", "deaths": "83", "recovered": "8526" },
-    { "date": "2020-12-27", "confirmed": "10676", "deaths": "86", "recovered": "8614" }
+    { "date": "2020-12-27", "confirmed": "10676", "deaths": "86", "recovered": "8614" },
+    { "date": "2020-12-28", "confirmed": "10767", "deaths": "86", "recovered": "8675" }
   ],
   "Омская область": [
     { "date": "2020-03-29", "confirmed": "3", "deaths": "0", "recovered": "0" },
@@ -21570,7 +21682,8 @@
     { "date": "2020-12-24", "confirmed": "28379", "deaths": "820", "recovered": "25754" },
     { "date": "2020-12-25", "confirmed": "28623", "deaths": "828", "recovered": "25993" },
     { "date": "2020-12-26", "confirmed": "28866", "deaths": "834", "recovered": "26235" },
-    { "date": "2020-12-27", "confirmed": "29105", "deaths": "842", "recovered": "26460" }
+    { "date": "2020-12-27", "confirmed": "29105", "deaths": "842", "recovered": "26460" },
+    { "date": "2020-12-28", "confirmed": "29352", "deaths": "849", "recovered": "26677" }
   ],
   "Амурская область": [
     { "date": "2020-03-29", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -21846,7 +21959,8 @@
     { "date": "2020-12-24", "confirmed": "14902", "deaths": "105", "recovered": "13311" },
     { "date": "2020-12-25", "confirmed": "15045", "deaths": "105", "recovered": "13449" },
     { "date": "2020-12-26", "confirmed": "15186", "deaths": "105", "recovered": "13595" },
-    { "date": "2020-12-27", "confirmed": "15324", "deaths": "105", "recovered": "13737" }
+    { "date": "2020-12-27", "confirmed": "15324", "deaths": "105", "recovered": "13737" },
+    { "date": "2020-12-28", "confirmed": "15459", "deaths": "105", "recovered": "13834" }
   ],
   "Иркутская область": [
     { "date": "2020-03-29", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -22177,7 +22291,13 @@
       "deaths": "1169",
       "recovered": "34536"
     },
-    { "date": "2020-12-27", "confirmed": "39470", "deaths": "1181", "recovered": "34842" }
+    {
+      "date": "2020-12-27",
+      "confirmed": "39470",
+      "deaths": "1181",
+      "recovered": "34842"
+    },
+    { "date": "2020-12-28", "confirmed": "39735", "deaths": "1193", "recovered": "34877" }
   ],
   "Севастополь": [
     { "date": "2020-03-30", "confirmed": "5", "deaths": "0", "recovered": "0" },
@@ -22452,7 +22572,8 @@
     { "date": "2020-12-24", "confirmed": "6175", "deaths": "211", "recovered": "5797" },
     { "date": "2020-12-25", "confirmed": "6260", "deaths": "215", "recovered": "5848" },
     { "date": "2020-12-26", "confirmed": "6343", "deaths": "220", "recovered": "5944" },
-    { "date": "2020-12-27", "confirmed": "6428", "deaths": "223", "recovered": "5997" }
+    { "date": "2020-12-27", "confirmed": "6428", "deaths": "223", "recovered": "5997" },
+    { "date": "2020-12-28", "confirmed": "6509", "deaths": "223", "recovered": "6024" }
   ],
   "Вологодская область": [
     { "date": "2020-03-30", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -22727,7 +22848,8 @@
     { "date": "2020-12-24", "confirmed": "20932", "deaths": "359", "recovered": "16153" },
     { "date": "2020-12-25", "confirmed": "21296", "deaths": "366", "recovered": "16508" },
     { "date": "2020-12-26", "confirmed": "21656", "deaths": "375", "recovered": "16856" },
-    { "date": "2020-12-27", "confirmed": "22013", "deaths": "391", "recovered": "17226" }
+    { "date": "2020-12-27", "confirmed": "22013", "deaths": "391", "recovered": "17226" },
+    { "date": "2020-12-28", "confirmed": "22374", "deaths": "395", "recovered": "17601" }
   ],
   "Владимирская область": [
     { "date": "2020-03-30", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -23002,7 +23124,8 @@
     { "date": "2020-12-24", "confirmed": "17317", "deaths": "431", "recovered": "15585" },
     { "date": "2020-12-25", "confirmed": "17497", "deaths": "439", "recovered": "15761" },
     { "date": "2020-12-26", "confirmed": "17676", "deaths": "447", "recovered": "15939" },
-    { "date": "2020-12-27", "confirmed": "17857", "deaths": "455", "recovered": "16104" }
+    { "date": "2020-12-27", "confirmed": "17857", "deaths": "455", "recovered": "16104" },
+    { "date": "2020-12-28", "confirmed": "18035", "deaths": "463", "recovered": "16246" }
   ],
   "Республика Марий Эл": [
     { "date": "2020-03-30", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -23277,7 +23400,8 @@
     { "date": "2020-12-24", "confirmed": "8828", "deaths": "114", "recovered": "7834" },
     { "date": "2020-12-25", "confirmed": "8880", "deaths": "115", "recovered": "7883" },
     { "date": "2020-12-26", "confirmed": "8932", "deaths": "115", "recovered": "7934" },
-    { "date": "2020-12-27", "confirmed": "8983", "deaths": "115", "recovered": "7978" }
+    { "date": "2020-12-27", "confirmed": "8983", "deaths": "115", "recovered": "7978" },
+    { "date": "2020-12-28", "confirmed": "9034", "deaths": "117", "recovered": "8019" }
   ],
   "Алтайский край": [
     { "date": "2020-03-30", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -23552,7 +23676,8 @@
     { "date": "2020-12-24", "confirmed": "31410", "deaths": "792", "recovered": "28820" },
     { "date": "2020-12-25", "confirmed": "31627", "deaths": "803", "recovered": "29025" },
     { "date": "2020-12-26", "confirmed": "31846", "deaths": "817", "recovered": "29247" },
-    { "date": "2020-12-27", "confirmed": "32062", "deaths": "830", "recovered": "29440" }
+    { "date": "2020-12-27", "confirmed": "32062", "deaths": "830", "recovered": "29440" },
+    { "date": "2020-12-28", "confirmed": "32276", "deaths": "844", "recovered": "29645" }
   ],
   "Республика Калмыкия": [
     { "date": "2020-03-30", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -23827,7 +23952,8 @@
     { "date": "2020-12-24", "confirmed": "14068", "deaths": "194", "recovered": "11699" },
     { "date": "2020-12-25", "confirmed": "14175", "deaths": "194", "recovered": "11838" },
     { "date": "2020-12-26", "confirmed": "14285", "deaths": "194", "recovered": "11957" },
-    { "date": "2020-12-27", "confirmed": "14391", "deaths": "199", "recovered": "12039" }
+    { "date": "2020-12-27", "confirmed": "14391", "deaths": "199", "recovered": "12039" },
+    { "date": "2020-12-28", "confirmed": "14493", "deaths": "200", "recovered": "12076" }
   ],
   "Астраханская область": [
     { "date": "2020-03-31", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -24101,7 +24227,8 @@
     { "date": "2020-12-24", "confirmed": "17768", "deaths": "353", "recovered": "12091" },
     { "date": "2020-12-25", "confirmed": "17946", "deaths": "358", "recovered": "12185" },
     { "date": "2020-12-26", "confirmed": "18125", "deaths": "365", "recovered": "12269" },
-    { "date": "2020-12-27", "confirmed": "18304", "deaths": "369", "recovered": "12326" }
+    { "date": "2020-12-27", "confirmed": "18304", "deaths": "369", "recovered": "12326" },
+    { "date": "2020-12-28", "confirmed": "18481", "deaths": "373", "recovered": "12389" }
   ],
   "Магаданская область": [
     { "date": "2020-03-31", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -24375,7 +24502,8 @@
     { "date": "2020-12-24", "confirmed": "6728", "deaths": "62", "recovered": "6215" },
     { "date": "2020-12-25", "confirmed": "6769", "deaths": "62", "recovered": "6259" },
     { "date": "2020-12-26", "confirmed": "6808", "deaths": "62", "recovered": "6299" },
-    { "date": "2020-12-27", "confirmed": "6848", "deaths": "62", "recovered": "6340" }
+    { "date": "2020-12-27", "confirmed": "6848", "deaths": "62", "recovered": "6340" },
+    { "date": "2020-12-28", "confirmed": "6886", "deaths": "62", "recovered": "6380" }
   ],
   "Курская область": [
     { "date": "2020-04-01", "confirmed": "3", "deaths": "0", "recovered": "0" },
@@ -24648,7 +24776,8 @@
     { "date": "2020-12-24", "confirmed": "19514", "deaths": "280", "recovered": "17689" },
     { "date": "2020-12-25", "confirmed": "19701", "deaths": "283", "recovered": "17867" },
     { "date": "2020-12-26", "confirmed": "19884", "deaths": "285", "recovered": "18053" },
-    { "date": "2020-12-27", "confirmed": "20064", "deaths": "290", "recovered": "18198" }
+    { "date": "2020-12-27", "confirmed": "20064", "deaths": "290", "recovered": "18198" },
+    { "date": "2020-12-28", "confirmed": "20246", "deaths": "293", "recovered": "18337" }
   ],
   "Республика Северная Осетия — Алания": [
     { "date": "2020-04-01", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -24921,7 +25050,8 @@
     { "date": "2020-12-24", "confirmed": "11396", "deaths": "91", "recovered": "10118" },
     { "date": "2020-12-25", "confirmed": "11485", "deaths": "91", "recovered": "10189" },
     { "date": "2020-12-26", "confirmed": "11573", "deaths": "93", "recovered": "10265" },
-    { "date": "2020-12-27", "confirmed": "11661", "deaths": "97", "recovered": "10335" }
+    { "date": "2020-12-27", "confirmed": "11661", "deaths": "97", "recovered": "10335" },
+    { "date": "2020-12-28", "confirmed": "11750", "deaths": "97", "recovered": "10398" }
   ],
   "Ямало-Ненецкий автономный округ": [
     { "date": "2020-04-02", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -25193,7 +25323,8 @@
     { "date": "2020-12-24", "confirmed": "30893", "deaths": "314", "recovered": "23236" },
     { "date": "2020-12-25", "confirmed": "31068", "deaths": "316", "recovered": "23471" },
     { "date": "2020-12-26", "confirmed": "31244", "deaths": "319", "recovered": "23700" },
-    { "date": "2020-12-27", "confirmed": "31418", "deaths": "322", "recovered": "23919" }
+    { "date": "2020-12-27", "confirmed": "31418", "deaths": "322", "recovered": "23919" },
+    { "date": "2020-12-28", "confirmed": "31593", "deaths": "325", "recovered": "24136" }
   ],
   "Еврейская автономная область": [
     { "date": "2020-04-03", "confirmed": "3", "deaths": "0", "recovered": "0" },
@@ -25464,7 +25595,8 @@
     { "date": "2020-12-24", "confirmed": "3623", "deaths": "63", "recovered": "2516" },
     { "date": "2020-12-25", "confirmed": "3647", "deaths": "65", "recovered": "2547" },
     { "date": "2020-12-26", "confirmed": "3664", "deaths": "67", "recovered": "2629" },
-    { "date": "2020-12-27", "confirmed": "3680", "deaths": "68", "recovered": "2662" }
+    { "date": "2020-12-27", "confirmed": "3680", "deaths": "68", "recovered": "2662" },
+    { "date": "2020-12-28", "confirmed": "3697", "deaths": "69", "recovered": "2667" }
   ],
   "Республика Ингушетия": [
     { "date": "2020-04-03", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -25735,7 +25867,8 @@
     { "date": "2020-12-24", "confirmed": "11516", "deaths": "131", "recovered": "9570" },
     { "date": "2020-12-25", "confirmed": "11606", "deaths": "131", "recovered": "9625" },
     { "date": "2020-12-26", "confirmed": "11693", "deaths": "132", "recovered": "9682" },
-    { "date": "2020-12-27", "confirmed": "11784", "deaths": "133", "recovered": "9736" }
+    { "date": "2020-12-27", "confirmed": "11784", "deaths": "133", "recovered": "9736" },
+    { "date": "2020-12-28", "confirmed": "11869", "deaths": "135", "recovered": "9774" }
   ],
   "Камчатский край": [
     { "date": "2020-04-05", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -26004,7 +26137,8 @@
     { "date": "2020-12-24", "confirmed": "9563", "deaths": "82", "recovered": "8436" },
     { "date": "2020-12-25", "confirmed": "9641", "deaths": "82", "recovered": "8509" },
     { "date": "2020-12-26", "confirmed": "9718", "deaths": "82", "recovered": "8586" },
-    { "date": "2020-12-27", "confirmed": "9796", "deaths": "82", "recovered": "8647" }
+    { "date": "2020-12-27", "confirmed": "9796", "deaths": "82", "recovered": "8647" },
+    { "date": "2020-12-28", "confirmed": "9873", "deaths": "82", "recovered": "8704" }
   ],
   "Республика Карелия": [
     { "date": "2020-04-06", "confirmed": "2", "deaths": "0", "recovered": "0" },
@@ -26272,7 +26406,8 @@
     { "date": "2020-12-24", "confirmed": "24952", "deaths": "146", "recovered": "17823" },
     { "date": "2020-12-25", "confirmed": "25327", "deaths": "149", "recovered": "18331" },
     { "date": "2020-12-26", "confirmed": "25706", "deaths": "150", "recovered": "18828" },
-    { "date": "2020-12-27", "confirmed": "26075", "deaths": "152", "recovered": "19345" }
+    { "date": "2020-12-27", "confirmed": "26075", "deaths": "152", "recovered": "19345" },
+    { "date": "2020-12-28", "confirmed": "26443", "deaths": "152", "recovered": "19750" }
   ],
   "Карачаево-Черкесская Республика": [
     { "date": "2020-04-07", "confirmed": "3", "deaths": "0", "recovered": "0" },
@@ -26539,7 +26674,8 @@
     { "date": "2020-12-24", "confirmed": "14486", "deaths": "38", "recovered": "12905" },
     { "date": "2020-12-25", "confirmed": "14578", "deaths": "41", "recovered": "12989" },
     { "date": "2020-12-26", "confirmed": "14671", "deaths": "41", "recovered": "13071" },
-    { "date": "2020-12-27", "confirmed": "14765", "deaths": "41", "recovered": "13140" }
+    { "date": "2020-12-27", "confirmed": "14765", "deaths": "41", "recovered": "13140" },
+    { "date": "2020-12-28", "confirmed": "14856", "deaths": "41", "recovered": "13201" }
   ],
   "Республика Тыва": [
     { "date": "2020-04-10", "confirmed": "6", "deaths": "0", "recovered": "0" },
@@ -26803,7 +26939,8 @@
     { "date": "2020-12-24", "confirmed": "14395", "deaths": "157", "recovered": "13134" },
     { "date": "2020-12-25", "confirmed": "14468", "deaths": "157", "recovered": "13189" },
     { "date": "2020-12-26", "confirmed": "14542", "deaths": "157", "recovered": "13252" },
-    { "date": "2020-12-27", "confirmed": "14612", "deaths": "157", "recovered": "13314" }
+    { "date": "2020-12-27", "confirmed": "14612", "deaths": "157", "recovered": "13314" },
+    { "date": "2020-12-28", "confirmed": "14669", "deaths": "157", "recovered": "13375" }
   ],
   "Ненецкий автономный округ": [
     { "date": "2020-04-15", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -27062,7 +27199,8 @@
     { "date": "2020-12-24", "confirmed": "757", "deaths": "0", "recovered": "679" },
     { "date": "2020-12-25", "confirmed": "762", "deaths": "0", "recovered": "679" },
     { "date": "2020-12-26", "confirmed": "769", "deaths": "0", "recovered": "682" },
-    { "date": "2020-12-27", "confirmed": "775", "deaths": "0", "recovered": "682" }
+    { "date": "2020-12-27", "confirmed": "775", "deaths": "0", "recovered": "682" },
+    { "date": "2020-12-28", "confirmed": "778", "deaths": "0", "recovered": "682" }
   ],
   "Чукотский автономный округ": [
     { "date": "2020-04-15", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -27321,7 +27459,8 @@
     { "date": "2020-12-24", "confirmed": "506", "deaths": "4", "recovered": "450" },
     { "date": "2020-12-25", "confirmed": "521", "deaths": "4", "recovered": "450" },
     { "date": "2020-12-26", "confirmed": "527", "deaths": "4", "recovered": "456" },
-    { "date": "2020-12-27", "confirmed": "528", "deaths": "4", "recovered": "460" }
+    { "date": "2020-12-27", "confirmed": "528", "deaths": "4", "recovered": "460" },
+    { "date": "2020-12-28", "confirmed": "528", "deaths": "4", "recovered": "460" }
   ],
   "Республика Алтай": [
     { "date": "2020-04-17", "confirmed": "1", "deaths": "0", "recovered": "0" },
@@ -27578,6 +27717,7 @@
     { "date": "2020-12-24", "confirmed": "13331", "deaths": "85", "recovered": "12685" },
     { "date": "2020-12-25", "confirmed": "13429", "deaths": "89", "recovered": "12746" },
     { "date": "2020-12-26", "confirmed": "13528", "deaths": "91", "recovered": "12825" },
-    { "date": "2020-12-27", "confirmed": "13624", "deaths": "95", "recovered": "12887" }
+    { "date": "2020-12-27", "confirmed": "13624", "deaths": "95", "recovered": "12887" },
+    { "date": "2020-12-28", "confirmed": "13687", "deaths": "95", "recovered": "12912" }
   ]
 }
