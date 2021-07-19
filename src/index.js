@@ -26,8 +26,8 @@ async function main() {
             tr.children && [
               tr.children[0].textContent.trim(),
               tr.children[1].textContent.trim(),
+              tr.children[3].textContent.trim(),
               tr.children[4].textContent.trim(),
-              tr.children[5].textContent.trim(),
             ]
         )
         .filter(Boolean)
