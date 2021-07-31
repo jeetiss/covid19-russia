@@ -10,7 +10,7 @@ const {
   compareAsc,
 } = require("date-fns");
 
-const keys = ["confirmed", "deaths", "recovered"];
+const KEYS = ["confirmed", "deaths", "recovered"];
 const findDataForDate = (data, date) => {
   return Object.fromEntries(
     Object.entries(
@@ -21,7 +21,7 @@ const findDataForDate = (data, date) => {
         )
       ]
     ).map(([key, value]) =>
-      keys.includes(key) ? [key, Number(value)] : [key, value]
+      KEYS.includes(key) ? [key, Number(value)] : [key, value]
     )
   );
 };
@@ -53,11 +53,12 @@ const approximate = (data, from, to) => {
       return { [prop]: prev[prop].toString() };
     };
 
-    const info = ["confirmed", "deaths", "recovered"]
-      .map((key) => calcProp(key))
-      .reduce((a, b) => Object.assign(a, b), {
+    const info = KEYS.map((key) => calcProp(key)).reduce(
+      (a, b) => Object.assign(a, b),
+      {
         date: format(index, "yyyy-MM-dd"),
-      });
+      }
+    );
 
     result.push(info);
   }
