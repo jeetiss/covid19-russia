@@ -25,7 +25,7 @@ async function main() {
           (tr) =>
             tr.children && [
               tr.children[0].textContent.trim(),
-              tr.children[1].textContent.trim(),
+              tr.children[2].textContent.trim(),
               tr.children[3].textContent.trim(),
               tr.children[4].textContent.trim(),
             ]
@@ -36,7 +36,7 @@ async function main() {
   await browser.close();
 
   if (
-    data.some(([city, confirmed, recovered, deaths]) => {
+    data.some(([city, recovered, confirmed, deaths]) => {
       const last = timeseries[city][timeseries[city].length - 1];
 
       return (
@@ -46,7 +46,7 @@ async function main() {
       );
     })
   ) {
-    data.forEach(([city, confirmed, recovered, deaths]) => {
+    data.forEach(([city, recovered, confirmed, deaths]) => {
       if (!Array.isArray(timeseries[city])) {
         timeseries[city] = [];
       }
