@@ -25,9 +25,9 @@ async function main() {
           (tr) =>
             tr.children && [
               tr.children[0].textContent.trim(),
-              tr.children[2].textContent.trim(),
-              tr.children[3].textContent.trim(),
-              tr.children[4].textContent.trim(),
+              Number(tr.children[2].textContent.trim()),
+              Number(tr.children[3].textContent.trim()),
+              Number(tr.children[4].textContent.trim()),
             ]
         )
         .filter(Boolean)
@@ -35,49 +35,58 @@ async function main() {
 
   await browser.close();
 
-  if (
-    data.some(([city, recovered, confirmed, deaths]) => {
-      const last = timeseries[city][timeseries[city].length - 1];
+  // if (
+  //   data.some(([city, recovered, confirmed, deaths]) => {
+  //     const last = timeseries[city][timeseries[city].length - 1];
+  //     return (
+  //       last.confirmed !== confirmed ||
+  //       last.recovered !== recovered ||
+  //       last.deaths !== deaths
+  //     );
+  //   })
+  // ) {
+  data.forEach(([city, recovered, confirmed, deaths]) => {
+    if (!Array.isArray(timeseries[city])) {
+      timeseries[city] = [];
+    }
 
-      return (
-        last.confirmed !== confirmed ||
-        last.recovered !== recovered ||
-        last.deaths !== deaths
-      );
-    })
-  ) {
-    data.forEach(([city, recovered, confirmed, deaths]) => {
-      if (!Array.isArray(timeseries[city])) {
-        timeseries[city] = [];
-      }
-
-      const last = timeseries[city][timeseries[city].length - 1];
-      if (last && last.date === date) {
+    const last = timeseries[city][timeseries[city].length - 1];
+    if (last) {
+      if (last.date === date) {
+        const prev = timeseries[city][timeseries[city].length - 2];
         timeseries[city][timeseries[city].length - 1] = {
           date,
-          confirmed,
-          deaths,
-          recovered,
+          confirmed: String(Number(prev.confirmed) + confirmed),
+          deaths: String(Number(prev.deaths) + deaths),
+          recovered: String(Number(prev.recovered) + recovered),
         };
       } else {
-        timeseries[city].push({
+        timeseries[city][timeseries[city].length - 1] = {
           date,
-          confirmed,
-          deaths,
-          recovered,
-        });
+          confirmed: String(Number(last.confirmed) + confirmed),
+          deaths: String(Number(last.deaths) + deaths),
+          recovered: String(Number(last.recovered) + recovered),
+        };
       }
-    });
+    } else {
+      timeseries[city].push({
+        date,
+        confirmed,
+        deaths,
+        recovered,
+      });
+    }
+  });
 
-    console.log("Save update");
-    await writeFile(
-      require.resolve("../docs/timeseries.json"),
-      prettier.format(JSON.stringify(timeseries), {
-        printWidth: 90,
-        parser: "json",
-      })
-    );
-  }
+  console.log("Save update");
+  await writeFile(
+    require.resolve("../docs/timeseries.json"),
+    prettier.format(JSON.stringify(timeseries), {
+      printWidth: 90,
+      parser: "json",
+    })
+  );
+  // }
 
   console.log("Done ✅");
 }
